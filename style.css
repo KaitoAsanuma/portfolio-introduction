@@ -19,10 +19,12 @@ a {
   width: 330px;
   height: 100%;
   margin-left: 20%;
+  
 }
 body {
   animation: fadeIn 5.0s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
   font-family: 'Architects Daughter', cursive;
+  user-select: none;
 }
  
 @keyframes fadeIn {
