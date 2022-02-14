@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 25px;
+  height: 20px;
 }
 .menu li {
   list-style: none;
@@ -13,21 +13,13 @@ a {
   color: black;
 }
 .main {
-  padding-left: 70px;
+  padding-left: 100px;
   background-color: white;
   opacity: 0.6;
   width: 330px;
   height: 100%;
   margin-left: 20%;
-}
-.main h1 {
-  font-size: 22px;
-}
-.contents1 h2 {
-  font-size: 15px;
-}
-.contents1 p {
-  font-size: 22px;
+  
 }
 body {
   animation: fadeIn 5.0s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;

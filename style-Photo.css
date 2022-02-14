@@ -5,6 +5,7 @@
 body {
   background-color: #FFFFFF;
   font-family: 'Architects Daughter', cursive;
+  user-select: none;
 }
 .menu li {
   list-style: none;
