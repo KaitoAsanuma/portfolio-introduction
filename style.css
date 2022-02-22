@@ -1,29 +1,59 @@
-.header {
-  width: 100%;
-  height: 20px;
+#particles-js{ 
+	position:fixed;/*描画固定*/
+	z-index:-1;/*描画を一番下に*/
+	width: 100%;
+	height: 100%;
+	background-color:black;/*背景色*/
+}
+
+#wrapper{
+	position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+	z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+	width:100%;
+	height: 100%;
+}
+.menu {
+  width: 500px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu li {
   list-style: none;
   float: left;
-  padding-left: 60px;
   font-size: 25px;
+  color: aliceblue;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: aliceblue;
+  margin-left: 60px;
 }
 .main {
-  padding-left: 100px;
+  padding-left: 30px;
   background-color: white;
   opacity: 0.6;
-  width: 330px;
-  height: 100%;
-  margin-left: 20%;
-  
+  width: 450px;
+  height: 850px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-size: 25px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   animation: fadeIn 5.0s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Sawarabi Mincho', serif;
   user-select: none;
 }
  
@@ -34,4 +64,8 @@ body {
   100% {
     opacity: 1;
   }
+}
+*{
+  margin: 0;
+  padding: 0;
 }
