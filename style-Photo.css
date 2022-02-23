@@ -19,6 +19,12 @@ body {
   float: left;
   font-size: 25px;
 }
+.header li {
+  list-style: none;
+  float: left;
+  font-size: 25px;
+  color: black;
+}
 a {
   text-decoration: none;
   padding-left: 40px;

@@ -23,6 +23,12 @@
   font-size: 25px;
   color: aliceblue;
 }
+.header li {
+  list-style: none;
+  float: left;
+  font-size: 25px;
+  color: aliceblue;
+}
 a {
   text-decoration: none;
   color: aliceblue;
