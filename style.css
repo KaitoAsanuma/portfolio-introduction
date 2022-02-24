@@ -35,26 +35,24 @@ a {
   padding-left: 40px;
 }
 .main {
-  padding-left: 30px;
   background-color: white;
   opacity: 0.6;
-  width: 450px;
-  height: 850px;
+  width: 40%;
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
+.contents1 {
+  padding-left: 30%;
+}
 h1 {
   padding-top: 30px;
   padding-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 p {
   font-size: 25px;
   padding-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 body {
   animation: fadeIn 5.0s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
